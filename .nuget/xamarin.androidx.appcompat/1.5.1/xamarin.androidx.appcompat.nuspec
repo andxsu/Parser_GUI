@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.AndroidX.AppCompat</id>
+    <version>1.5.1</version>
+    <title>Xamarin AndroidX - appcompat</title>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT AND Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/MIT%20AND%20Apache-2.0</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://aka.ms/androidx</projectUrl>
+    <description>Xamarin.Android bindings for AndroidX - appcompat  artifact=androidx.appcompat:appcompat artifact_versioned=androidx.appcompat:appcompat:1.5.1</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Xamarin AndroidX Xamarin.AndroidX Support Google appcompat artifact=androidx.appcompat:appcompat artifact_versioned=androidx.appcompat:appcompat:1.5.1</tags>
+    <repository type="git" url="https://github.com/xamarin/AndroidX.git" branch="refs/tags/20220921-weekly-stable-updates" commit="832df53761ffae81ad8c0abb437357de96dc3ff4" />
+    <dependencies>
+      <group targetFramework="MonoAndroid12.0">
+        <dependency id="Xamarin.AndroidX.Activity" version="1.5.1" include="All" />
+        <dependency id="Xamarin.AndroidX.Annotation" version="1.4.0" include="All" />
+        <dependency id="Xamarin.AndroidX.AppCompat.AppCompatResources" version="1.5.1" include="All" />
+        <dependency id="Xamarin.AndroidX.Collection" version="1.2.0.4" include="All" />
+        <dependency id="Xamarin.AndroidX.Core.Core.Ktx" version="1.9.0" include="All" />
+        <dependency id="Xamarin.AndroidX.Core" version="1.9.0" include="All" />
+        <dependency id="Xamarin.AndroidX.CursorAdapter" version="1.0.0.14" include="All" />
+        <dependency id="Xamarin.AndroidX.DrawerLayout" version="1.1.1.9" include="All" />
+        <dependency id="Xamarin.AndroidX.Emoji2.ViewsHelper" version="1.2.0" include="All" />
+        <dependency id="Xamarin.AndroidX.Emoji2" version="1.2.0" include="All" />
+        <dependency id="Xamarin.AndroidX.Fragment" version="1.5.2" include="All" />
+        <dependency id="Xamarin.AndroidX.Lifecycle.Runtime" version="2.5.1" include="All" />
+        <dependency id="Xamarin.AndroidX.Lifecycle.ViewModel" version="2.5.1" include="All" />
+        <dependency id="Xamarin.AndroidX.ResourceInspection.Annotation" version="1.0.1.2" include="All" />
+        <dependency id="Xamarin.AndroidX.SavedState" version="1.2.0" include="All" />
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.7.10" include="All" />
+      </group>
+      <group targetFramework="net6.0-android31.0">
+        <dependency id="Xamarin.AndroidX.Activity" version="1.5.1" include="All" />
+        <dependency id="Xamarin.AndroidX.Annotation" version="1.4.0" include="All" />
+        <dependency id="Xamarin.AndroidX.AppCompat.AppCompatResources" version="1.5.1" include="All" />
+        <dependency id="Xamarin.AndroidX.Collection" version="1.2.0.4" include="All" />
+        <dependency id="Xamarin.AndroidX.Core.Core.Ktx" version="1.9.0" include="All" />
+        <dependency id="Xamarin.AndroidX.Core" version="1.9.0" include="All" />
+        <dependency id="Xamarin.AndroidX.CursorAdapter" version="1.0.0.14" include="All" />
+        <dependency id="Xamarin.AndroidX.DrawerLayout" version="1.1.1.9" include="All" />
+        <dependency id="Xamarin.AndroidX.Emoji2.ViewsHelper" version="1.2.0" include="All" />
+        <dependency id="Xamarin.AndroidX.Emoji2" version="1.2.0" include="All" />
+        <dependency id="Xamarin.AndroidX.Fragment" version="1.5.2" include="All" />
+        <dependency id="Xamarin.AndroidX.Lifecycle.Runtime" version="2.5.1" include="All" />
+        <dependency id="Xamarin.AndroidX.Lifecycle.ViewModel" version="2.5.1" include="All" />
+        <dependency id="Xamarin.AndroidX.ResourceInspection.Annotation" version="1.0.1.2" include="All" />
+        <dependency id="Xamarin.AndroidX.SavedState" version="1.2.0" include="All" />
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.7.10" include="All" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Numerics.Vectors" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="MonoAndroid12.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

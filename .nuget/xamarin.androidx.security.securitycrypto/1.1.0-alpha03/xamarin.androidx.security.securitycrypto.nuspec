@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.AndroidX.Security.SecurityCrypto</id>
+    <version>1.1.0-alpha03</version>
+    <title>Xamarin AndroidX - security-crypto</title>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://go.microsoft.com/fwlink/?linkid=2113238</projectUrl>
+    <iconUrl>https://go.microsoft.com/fwlink/?linkid=2099392</iconUrl>
+    <description>Xamarin.Android bindings for AndroidX - security-crypto  artifact=androidx.security:security-crypto artifact_versioned=androidx.security:security-crypto:1.1.0-alpha03</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Xamarin AndroidX Xamarin.AndroidX Support Google security-crypto artifact=androidx.security:security-crypto artifact_versioned=androidx.security:security-crypto:1.1.0-alpha03</tags>
+    <repository type="git" url="https://github.com/xamarin/AndroidX.git" branch="refs/tags/20211004-crypto-alpha" commit="a8c84b1cb58a05987238ab52ace5328ddfdd51ce" />
+    <dependencies>
+      <group targetFramework="MonoAndroid9.0">
+        <dependency id="Xamarin.AndroidX.Annotation" version="1.2.0.3" include="All" />
+        <dependency id="Xamarin.AndroidX.Collection" version="1.1.0.10" include="All" />
+        <dependency id="Xamarin.Google.Crypto.Tink.Android" version="1.6.1.2" include="All" />
+      </group>
+      <group targetFramework="net6.0-android31.0">
+        <dependency id="Xamarin.AndroidX.Annotation" version="1.2.0.3" include="All" />
+        <dependency id="Xamarin.AndroidX.Collection" version="1.1.0.10" include="All" />
+        <dependency id="Xamarin.Google.Crypto.Tink.Android" version="1.6.1.2" include="All" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="System.Numerics.Vectors" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

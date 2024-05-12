@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Android.Glide.DiskLruCache</id>
+    <version>4.13.2.2</version>
+    <title>Xamarin.Android.Glide.DiskLruCache</title>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT AND Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/MIT%20AND%20Apache-2.0</licenseUrl>
+    <projectUrl>https://go.microsoft.com/fwlink/?linkid=865435</projectUrl>
+    <description>Xamarin.Android bindings for Glide.DiskLruCahce</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>xamarin, android, bindings, bumptech, glide, disklrucache</tags>
+    <repository type="git" url="https://go.microsoft.com/fwlink/?linkid=865435" branch="100.20220809-androidlibrary-instead-of-libraryprojectzip" commit="46467b6f09f12ad3357dc8775f47d4ff017f76be" />
+    <dependencies>
+      <group targetFramework="MonoAndroid12.0" />
+      <group targetFramework="net6.0-android31.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Numerics.Vectors" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="MonoAndroid12.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

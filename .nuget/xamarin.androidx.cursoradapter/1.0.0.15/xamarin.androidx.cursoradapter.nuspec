@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.AndroidX.CursorAdapter</id>
+    <version>1.0.0.15</version>
+    <title>.NET for Android (formerly Xamarin.Android) AndroidX - cursoradapter</title>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT AND Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/MIT%20AND%20Apache-2.0</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://aka.ms/androidx</projectUrl>
+    <description>.NET for Android (formerly Xamarin.Android) bindings for AndroidX library 'androidx.cursoradapter:cursoradapter'.</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>.NET Android Xamarin AndroidX Xamarin.AndroidX Support Google cursoradapter artifact=androidx.cursoradapter:cursoradapter artifact_versioned=androidx.cursoradapter:cursoradapter:1.0.0</tags>
+    <repository type="git" url="https://github.com/xamarin/AndroidX.git" branch="refs/tags/20221025-version-bumps-for-metadata-updates" commit="ebdf9faa1bb7c8188b71ad3d1ebb18b303dedc84" />
+    <dependencies>
+      <group targetFramework="MonoAndroid12.0">
+        <dependency id="Xamarin.AndroidX.Annotation" version="1.5.0.1" include="All" />
+      </group>
+      <group targetFramework="net6.0-android31.0">
+        <dependency id="Xamarin.AndroidX.Annotation" version="1.5.0.1" include="All" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Numerics.Vectors" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="MonoAndroid12.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

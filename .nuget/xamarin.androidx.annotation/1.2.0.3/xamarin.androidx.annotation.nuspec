@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.AndroidX.Annotation</id>
+    <version>1.2.0.3</version>
+    <title>Xamarin AndroidX - annotation</title>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://go.microsoft.com/fwlink/?linkid=2113238</projectUrl>
+    <iconUrl>https://go.microsoft.com/fwlink/?linkid=2099392</iconUrl>
+    <description>Xamarin.Android bindings for AndroidX - annotation  artifact=androidx.annotation:annotation artifact_versioned=androidx.annotation:annotation:1.2.0</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Xamarin AndroidX Xamarin.AndroidX Support Google annotation artifact=androidx.annotation:annotation artifact_versioned=androidx.annotation:annotation:1.2.0</tags>
+    <repository type="git" url="https://github.com/xamarin/AndroidX.git" branch="refs/tags/20211001-kotlin-targets-fix" commit="088bac3ab11a33da9695fc2b2b4f6d6370d5b8a8" />
+    <dependencies>
+      <group targetFramework="MonoAndroid9.0">
+        <dependency id="Xamarin.AndroidX.Migration" version="1.0.8" include="All" />
+      </group>
+      <group targetFramework="net6.0-android31.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="System.Numerics.Vectors" targetFramework="MonoAndroid9.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

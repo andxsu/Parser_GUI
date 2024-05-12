@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.AndroidX.Annotation</id>
+    <version>1.5.0</version>
+    <title>Xamarin AndroidX - annotation</title>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT AND Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/MIT%20AND%20Apache-2.0</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://aka.ms/androidx</projectUrl>
+    <description>Xamarin.Android bindings for AndroidX - annotation  artifact=androidx.annotation:annotation artifact_versioned=androidx.annotation:annotation:1.5.0</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Xamarin AndroidX Xamarin.AndroidX Support Google annotation artifact=androidx.annotation:annotation artifact_versioned=androidx.annotation:annotation:1.5.0</tags>
+    <repository type="git" url="https://github.com/xamarin/AndroidX.git" branch="refs/tags/20221003-weekly-stable-updates" commit="864f7d088addf81660be7c132096f52bae107906" />
+    <dependencies>
+      <group targetFramework="MonoAndroid12.0">
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.7.10" include="All" />
+        <dependency id="Xamarin.AndroidX.Migration" version="1.0.10" include="All" />
+      </group>
+      <group targetFramework="net6.0-android31.0">
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.7.10" include="All" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Numerics.Vectors" targetFramework="MonoAndroid12.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="MonoAndroid12.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

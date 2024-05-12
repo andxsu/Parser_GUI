@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Maui.Graphics</id>
+    <version>7.0.101+4-sha.f97a31da6a-azdo.8632927</version>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/dotnet/maui</projectUrl>
+    <description>Package Description</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/maui.git" commit="f97a31da6a67d7ea49f68400e398fdf4f4692bc7" />
+    <dependencies>
+      <group targetFramework="net7.0" />
+      <group targetFramework="net7.0-android33.0" />
+      <group targetFramework="net7.0-ios16.1" />
+      <group targetFramework="net7.0-maccatalyst16.1" />
+      <group targetFramework="net7.0-macos13.0" />
+      <group targetFramework="net7.0-tizen7.0" />
+      <group targetFramework="net7.0-windows10.0.19041" />
+      <group targetFramework="net7.0-windows10.0.20348" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Numerics.Vectors" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="System.Numerics.Vectors" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
