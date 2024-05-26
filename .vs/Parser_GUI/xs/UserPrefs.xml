@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{E151A6F4-47D6-415D-A513-47B0B7846BE9}|Default">
+  <MonoDevelop.Ide.ItemProperties.Parser__GUI PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/sdk/7.0.403/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
+    <Files>
+      <File FileName="Parser_GUI/MauiProgram.cs" />
+      <File FileName="Parser_GUI/MainPage.xaml.cs" Line="3" Column="26" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.403/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="281" Column="17" />
+      <File FileName="Parser_GUI/MainPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Parser_GUI" expanded="True">
+            <Node name="Parser_GUI">
+              <Node name="platform-tools" expanded="True">
+                <Node name="adb" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
